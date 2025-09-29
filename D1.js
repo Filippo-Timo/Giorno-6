@@ -55,7 +55,7 @@ console.log("Esempio addizione 12+20:", addizione);
 
 let x;
 x = 12;
-console.log("Valore variabile x:", x);
+console.log("Valore della variabile x:", x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
