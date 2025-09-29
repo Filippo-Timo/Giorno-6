@@ -13,22 +13,27 @@ REGOLE
 let numerico;
 numerico = 1;
 console.log("Esempio numerico:", numerico);
+// Il loro valore sarà espresso in numero intero (esempio: 1; 3; 39;...) o decimale (esempio: 1,35; 2.43;...) e nel definire il valore non ci sarà bisogno di includere il numero all'interno di " " o ' '.
 
-let stringa = "stringa";
+let stringa;
 stringa = "stringa";
 console.log("Esempio di stringa:", stringa);
+// Il loro valore è espresso a lettere all'interno di " " o ' ' (esempio: let valore    valore = "bear").
 
 let boolean;
 boolean = true;
 console.log("Esempio di boolean:", boolean);
+// Il loro valore può essere solo di due tipi: true o false
 
 let indefinito;
 indefinito = undefined;
 console.log("Esempio di indefinito:", indefinito);
+// Il loro valore è indefinito (a volte solo momentaneamente) e si usa solitamente quando ancora non si conosce il valore di questti elementi (magari si scoprirà più avanti nel codice come risultato di qualche operazione o in altri modi).
 
 let nullo;
 nullo = null;
 console.log("Esempio di nullo:", nullo);
+// Il loro valore è nullo, vuoto, come se fosse uno 0.
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
